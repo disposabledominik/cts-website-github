@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chain the Sun — Rock &amp; Metal Band from Croatia</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Chain the Sun — Rock &amp; Metal band from Croatia. Stream our singles now.">
+  <link rel="canonical" href="https://www.chainthesun.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Chain the Sun">
+  <meta property="og:description" content="Rock &amp; Metal band from Croatia. Stream our singles now.">
+  <meta property="og:image"       content="https://www.chainthesun.com/assets/images/hero-bg.jpg">
+  <meta property="og:url"         content="https://www.chainthesun.com/">
+  <meta property="og:type"        content="website">
+
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; connect-src 'none'">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── NAVIGATION ────────────────────────────────────────── -->
+  <nav>
+    <a href="#hero" class="nav__brand" aria-label="Chain the Sun — Home">
+      <img src="assets/images/logo.svg" alt="Chain the Sun" height="28" width="116">
+    </a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#releases">Music</a></li>
+      <li><a href="#social">Follow</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav__toggle" id="navToggle"
+            aria-label="Toggle navigation" aria-expanded="false"
+            aria-controls="navLinks">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- ─── HERO ──────────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+    <div class="hero__content">
+      <span class="hero__eyebrow">Rock &amp; Metal · Croatia</span>
+      <img
+        src="assets/images/logo.svg"
+        alt="Chain the Sun"
+        class="hero__logo"
+        width="520"
+        height="126"
+      >
+      <p class="hero__tagline">New Singles Out Now</p>
+      <a href="#releases" class="cta-btn">Listen Now ↓</a>
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────────────────── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about__inner">
+
+        <div class="about__photo">
+          <img
+            src="assets/images/band-photo.jpg"
+            alt="Chain the Sun band photo"
+            loading="lazy"
+            width="1280"
+            height="720"
+          >
+        </div>
+
+        <div class="about__text">
+          <span class="section__label">The Band</span>
+          <h2>Chain <span class="dim">the Sun</span></h2>
+          <div class="section-rule"></div>
+          <p class="about__bio">
+            Wishing to question genre limits, the band was formed under a broad
+            common denominator of <strong>rock and heavy metal</strong>. Their sound
+            is primarily rooted in <strong>melodic vocal lines and poetic texts</strong>,
+            followed by tight riffs, musical solos and dynamic rhythms.
+          </p>
+          <div class="about__members">
+            <div class="member">
+              <div class="member__name">Ivan Lujo</div>
+              <div class="member__role">Drums</div>
+            </div>
+            <div class="member">
+              <div class="member__name">Nikola Miskovic</div>
+              <div class="member__role">Lead Vocals</div>
+            </div>
+            <div class="member">
+              <div class="member__name">Hrvoje Ryznar</div>
+              <div class="member__role">Bass &amp; Vocals</div>
+            </div>
+            <div class="member">
+              <div class="member__name">Dominik Zoric</div>
+              <div class="member__role">Guitar</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── RELEASES ──────────────────────────────────────────── -->
+  <section id="releases" class="section">
+    <div class="container">
+      <span class="section__label">Discography</span>
+      <h2>Latest <span class="dim">Releases</span></h2>
+      <div class="section-rule"></div>
+      <div class="releases__grid">
+
+        <article class="release-card">
+          <a href="https://ffm.to/woag" target="_blank" rel="noopener noreferrer">
+            <img
+              src="assets/images/woag.jpg"
+              alt="Whisper of a Gun — single cover"
+              loading="lazy"
+              class="release-card__artwork"
+              width="600"
+              height="600"
+            >
+            <div class="release-card__body">
+              <h3 class="release-card__title">Whisper of a Gun</h3>
+              <span class="release-card__cta">
+                Stream / Download
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5"
+                     stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </span>
+            </div>
+          </a>
+        </article>
+
+        <article class="release-card">
+          <a href="https://ffm.to/beforetherain" target="_blank" rel="noopener noreferrer">
+            <img
+              src="assets/images/beforetherain.jpg"
+              alt="Before the Rain — single cover"
+              loading="lazy"
+              class="release-card__artwork"
+              width="600"
+              height="600"
+            >
+            <div class="release-card__body">
+              <h3 class="release-card__title">Before the Rain</h3>
+              <span class="release-card__cta">
+                Stream / Download
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5"
+                     stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </span>
+            </div>
+          </a>
+        </article>
+
+        <article class="release-card">
+          <a href="https://ffm.to/tomorrowcalls" target="_blank" rel="noopener noreferrer">
+            <img
+              src="assets/images/tomorrowcalls.jpg"
+              alt="Tomorrow Calls — single cover"
+              loading="lazy"
+              class="release-card__artwork"
+              width="600"
+              height="600"
+            >
+            <div class="release-card__body">
+              <h3 class="release-card__title">Tomorrow Calls</h3>
+              <span class="release-card__cta">
+                Stream / Download
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5"
+                     stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </span>
+            </div>
+          </a>
+        </article>
+
+        <article class="release-card">
+          <a href="https://ffm.to/farewell" target="_blank" rel="noopener noreferrer">
+            <img
+              src="assets/images/farewell.jpg"
+              alt="Farewell to Arms — single cover"
+              loading="lazy"
+              class="release-card__artwork"
+              width="600"
+              height="600"
+            >
+            <div class="release-card__body">
+              <h3 class="release-card__title">Farewell to Arms</h3>
+              <span class="release-card__cta">
+                Stream / Download
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5"
+                     stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </span>
+            </div>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SOCIAL ────────────────────────────────────────────── -->
+  <section id="social" class="section">
+    <div class="container">
+      <span class="section__label">Connect</span>
+      <h2>Follow <span class="dim">the Band</span></h2>
+      <div class="section-rule"></div>
+      <div class="social__links">
+
+        <a href="https://www.youtube.com/channel/UChY7wa596Chd940Ke-uisXA"
+           target="_blank" rel="noopener noreferrer"
+           class="social-link"
+           aria-label="Chain the Sun on YouTube">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.55 3.6 12 3.6 12 3.6s-7.55 0-9.38.46A3.02 3.02 0 0 0 .5 6.2C.05 8.05.05 12 .05 12s0 3.95.45 5.8a3.02 3.02 0 0 0 2.12 2.14C4.45 20.4 12 20.4 12 20.4s7.55 0 9.38-.46a3.02 3.02 0 0 0 2.12-2.14C23.95 15.95 23.95 12 23.95 12s0-3.95-.45-5.8zM9.75 15.52V8.48L15.82 12l-6.07 3.52z"/>
+          </svg>
+          <span>YouTube</span>
+        </a>
+
+        <a href="https://www.facebook.com/chainthesun"
+           target="_blank" rel="noopener noreferrer"
+           class="social-link"
+           aria-label="Chain the Sun on Facebook">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.41 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.27h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/>
+          </svg>
+          <span>Facebook</span>
+        </a>
+
+        <a href="https://www.instagram.com/chain.the.sun/"
+           target="_blank" rel="noopener noreferrer"
+           class="social-link"
+           aria-label="Chain the Sun on Instagram">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85 0 3.2-.01 3.58-.07 4.85-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07-3.2 0-3.58-.01-4.85-.07-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.58 2.16 15.2 2.16 12c0-3.2.01-3.58.07-4.85C2.38 3.86 3.9 2.31 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.7.07 7.05.01 8.33 0 8.74 0 12c0 3.26.01 3.67.07 4.95.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24c3.26 0 3.67-.01 4.95-.07 4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95 0-3.26-.01-3.67-.07-4.95-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32A6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/>
+          </svg>
+          <span>Instagram</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ───────────────────────────────────────────── -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact__inner">
+        <span class="section__label">Get in Touch</span>
+        <h2>Contact <span class="dim">Us</span></h2>
+        <div class="section-rule" style="margin: 0 auto 2.5rem;"></div>
+        <p>
+          For bookings, press enquiries,<br>
+          collaborations, or just to say hello —<br>
+          drop us a line.
+        </p>
+        <a href="mailto:contact@chainthesun.com" class="contact-email">
+          contact@chainthesun.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────── -->
+  <footer>
+    <img src="assets/images/logo.svg"
+         alt="Chain the Sun"
+         class="footer__logo"
+         width="116"
+         height="28">
+    <p class="footer__copy">© 2025 Chain the Sun · All rights reserved · Croatia</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
