@@ -17,6 +17,12 @@ Hosted on **GitHub Pages** at **chainthesun.com**. Pure HTML/CSS/JS — no build
 ├── CNAME                        ← contains exactly: chainthesun.com
 ├── css/style.css
 ├── js/main.js
+├── favicon.svg
+├── robots.txt
+├── sitemap.xml
+├── README.md
+├── DEPLOY.md
+├── LICENSE
 ├── assets/images/
 │   ├── logo.svg                 (SVG, cream fill #f4eed7, viewBox 0 0 640 155.52)
 │   ├── hero-bg.jpg              (1920×891px, 247 KB)
