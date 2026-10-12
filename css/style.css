@@ -554,6 +554,19 @@ footer {
     display: flex;
   }
 
+  /* Hero: show the whole collage */
+  #hero { min-height: 100svh; }
+  .hero__bg {
+    inset: var(--nav-height) 0 auto 0;
+    height: auto;
+    aspect-ratio: 1920 / 891;
+    background-size: 100% 100%;
+    background-position: top center;
+    opacity: 0.6;
+    -webkit-mask-image: linear-gradient(to bottom, #000 65%, transparent);
+    mask-image: linear-gradient(to bottom, #000 65%, transparent);
+  }
+   
   /* About */
   .about__inner {
     grid-template-columns: 1fr;
